@@ -1,0 +1,26 @@
+\documentclass[ignorenonframetext, noae]{beamer}
+
+\usepackage{helvet} % avant
+\usepackage[english,spanish,galician]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8x]{inputenc}
+\usepackage{default}
+\usepackage{array}
+\usepackage{chngpage}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{animate}
+
+
+\graphicspath{{"./Scripts/Figures/"}}
+\setbeamertemplate{navigation symbols}{}
+\usecolortheme{seagull}
+
+\begin{document}
+%----------- diapositiva ---------------------------------------------------%
+\begin{frame}{Effect of bandwidth on bivariate kernel density estimation}
+ \animategraphics[autoplay,loop,poster=first,width=\textwidth]{16}{KernelDensity}{10}{300}
+\end{frame}
+
+
+\end{document}
